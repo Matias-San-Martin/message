@@ -1,0 +1,59 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+}
+
+main {
+    border: solid red;
+}
+
+.contactos {
+    
+    flex-basis: 20%;
+    /* width: 20%; */
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    border: solid;
+    width: 100%;
+    height: 10%;
+}
+
+.usuario {
+    border: solid greenyellow;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.usuario div {
+    border: dotted;
+}
+
+.nuevomensaje {
+    border: solid purple;
+    background-color: aliceblue;
+}
+
+.contacto {
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+.main {
+    flex-basis: 80%;
+    /* width: 80%; */
+}
